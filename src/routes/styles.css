@@ -1,0 +1,33 @@
+main {
+  margin-top: auto;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+section.title {
+  flex-direction: column;
+  gap: 0.3em;
+  margin-bottom: 2em;
+}
+
+h1.name {
+  font-size: 2em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p.role {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+}
+
+section.links {
+  gap: 2em;
+  margin-bottom: 2em;
+}
