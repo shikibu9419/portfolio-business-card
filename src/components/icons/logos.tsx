@@ -1,6 +1,6 @@
 export type PropsType = {
   size: number;
-}
+};
 
 export const Facebook = ({ size }: PropsType) => (
   <img src="/icons/facebook.svg" width={size} height={size} />

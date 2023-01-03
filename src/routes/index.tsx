@@ -1,9 +1,9 @@
-import { component$, useStyles$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-import { Facebook, Instagram, Twitter } from '../components/icons/logos';
-import { Link } from '@builder.io/qwik-city';
+import { component$, useStyles$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
+import { Facebook, Instagram, Twitter } from "../components/icons/logos";
+import { Link } from "@builder.io/qwik-city";
 
-import styles from './styles.css?inline';
+import styles from "./styles.css?inline";
 
 export default component$(() => {
   useStyles$(styles);
@@ -26,14 +26,12 @@ export default component$(() => {
         </Link>
       </section>
       <section>
-        <Link href="/">
-          See portfolio (WIP)
-        </Link>
+        <Link href="/">See portfolio (WIP)</Link>
       </section>
     </main>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to my page',
+  title: "Welcome to my page",
 };
