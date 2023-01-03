@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: #303030;
+  background-color: #202020;
   color: var(--text-white);
   font-family: Roboto;
   height: 100%;
@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
 }
 

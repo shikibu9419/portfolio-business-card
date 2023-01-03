@@ -22,6 +22,7 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         <RouterHead />
       </head>
       <body lang="en">
