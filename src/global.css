@@ -24,10 +24,3 @@ a {
   color: var(--text-white);
   text-decoration: none;
 }
-
-footer {
-  margin-top: auto;
-  padding: 4px;
-  font-size: 0.5em;
-  margin-bottom: 0.3em;
-}

@@ -4,7 +4,6 @@ export default component$(() => {
   return (
     <>
       <Slot />
-      <footer>© 2023- Kazuya Izumi</footer>
     </>
   );
 });
