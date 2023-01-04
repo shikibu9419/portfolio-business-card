@@ -1,0 +1,38 @@
+.scrolldown-container {
+	position:absolute;
+	bottom: 1em;
+	text-align: center;
+}
+
+.scrolldown-label {
+  font-size: 0.8em;
+}
+
+/*スクロールダウン全体の場所*/
+.scrolldown {
+	margin-bottom: 0;
+	animation: arrowmove 1s ease-in-out infinite;
+}
+
+/*下からの距離が変化して全体が下→上→下に動く*/
+@keyframes arrowmove {
+      0%{margin-bottom:0;}
+      50%{margin-bottom:1em;}
+     100%{margin-bottom:0;}
+ }
+
+/* 矢印の描写 */
+.scrolldown:before {
+    content: "";
+    /*描画位置*/
+    position: relative;
+    bottom: 0;
+    /*矢印の形状*/
+		width: 0;
+		height: 0;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid var(--text-white);
+		opacity: 80%;
+		box-sizing: border-box;
+}
