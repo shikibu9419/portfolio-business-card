@@ -1,6 +1,7 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import { Facebook, Instagram, Twitter } from "../icons/logos";
 import { Link } from "@builder.io/qwik-city";
+import ScrollDown from "~/components/scrolldown";
 
 import styles from "./styles.css?inline";
 
@@ -31,6 +32,7 @@ export default component$(() => {
       </div>
 
       <footer>© 2023- Kazuya Izumi</footer>
+      <ScrollDown label="AR view" />
     </section>
   );
 });
