@@ -1,6 +1,6 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Top from "~/components/top-page";
+import TopPage from "~/components/top-page";
 import ScrollDown from "~/components/scrolldown";
 
 import styles from "./styles.css?inline";
@@ -10,8 +10,7 @@ export default component$(() => {
 
   return (
     <>
-      <Top />
-      <footer>© 2023- Kazuya Izumi</footer>
+      <TopPage />
       <ScrollDown label="AR view" />
     </>
   );

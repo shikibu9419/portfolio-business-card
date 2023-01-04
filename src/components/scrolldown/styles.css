@@ -2,6 +2,7 @@
 	position:absolute;
 	bottom: 1em;
 	text-align: center;
+  width: 100%;
 }
 
 .scrolldown-label {
