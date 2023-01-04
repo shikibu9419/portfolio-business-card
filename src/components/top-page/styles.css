@@ -1,0 +1,49 @@
+.top-page-container {
+  margin-top: auto;
+  height: 100%;
+  width: 100%;
+}
+
+section.title {
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.3em;
+  margin-bottom: 2em;
+}
+
+h1.name {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p.role {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+}
+
+section.sns-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+section.portfolio-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  margin-top: auto;
+  padding: 4px;
+  font-size: 0.5em;
+  margin-bottom: 0.3em;
+}
