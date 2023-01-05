@@ -4,6 +4,13 @@ main {
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+main::-webkit-scrollbar{
+  display:none;
 }
 
 section.snapped {
