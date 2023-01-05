@@ -1,34 +1,18 @@
 main {
-  margin-top: auto;
-}
-
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-section.title {
-  flex-direction: column;
-  gap: 0.3em;
-  margin-bottom: 2em;
+main::-webkit-scrollbar{
+  display:none;
 }
 
-h1.name {
-  font-weight: bold;
-  font-size: 2em;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-p.role {
-  font-size: 1em;
-  font-style: italic;
-  margin: 0;
-}
-
-section.links {
-  gap: 2em;
-  margin-bottom: 2em;
+section.snapped {
+  scroll-snap-align: start;
 }
