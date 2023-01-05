@@ -9,7 +9,7 @@ export default component$(() => {
   useStyles$(styles)
 
   return (
-    <section class="top-page-container">
+    <section class="top-page-container snapped">
       <div class="body-container">
         <section class="title">
           <h1 class="name">Kazuya Izumi</h1>
