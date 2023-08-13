@@ -3,13 +3,13 @@ export type PropsType = {
 };
 
 export const Facebook = ({ size }: PropsType) => (
-  <img src="/icons/facebook.svg" width={size} height={size} />
+  <img src="/icons/facebook.webp" width={size} height={size} loading="lazy" />
 );
 
 export const Instagram = ({ size }: PropsType) => (
-  <img src="/icons/instagram.svg" width={size} height={size} />
+  <img src="/icons/instagram.webp" width={size} height={size} loading="lazy" />
 );
 
 export const Twitter = ({ size }: PropsType) => (
-  <img src="/icons/twitter.svg" width={size} height={size} />
+  <img src="/icons/twitter.webp" width={size} height={size} loading="lazy" />
 );
