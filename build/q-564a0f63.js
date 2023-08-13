@@ -1,1 +1,0 @@
-import{o as e,T as o,_ as t}from"./q-b6973ef0.js";const a=e(o(()=>t(()=>import("./q-63b5088e.js"),["build/q-63b5088e.js","build/q-b6973ef0.js","build/q-5f689c3d.js"]),"s_LC0rKFeIm0c")),r={title:"Welcome to my page"};export{a as default,r as head};
