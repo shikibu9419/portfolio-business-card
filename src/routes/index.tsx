@@ -26,7 +26,7 @@ export default component$(() => {
         </Link>
       </section>
       <section>
-        <Link href="/">See portfolio (WIP)</Link>
+        <Link href="https://kazuyaizumi.com">See portfolio (Japanese Only)</Link>
       </section>
     </main>
   );
