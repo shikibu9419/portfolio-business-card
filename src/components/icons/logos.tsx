@@ -13,3 +13,7 @@ export const Instagram = ({ size }: PropsType) => (
 export const Twitter = ({ size }: PropsType) => (
   <img src="/icons/twitter.webp" width={size} height={size} loading="lazy" />
 );
+
+export const LinkedIn = ({ size }: PropsType) => (
+  <img src="/icons/linkedin.svg" width={size} height={size} loading="lazy" />
+);
