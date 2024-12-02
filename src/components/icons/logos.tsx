@@ -15,5 +15,5 @@ export const Twitter = ({ size }: PropsType) => (
 );
 
 export const LinkedIn = ({ size }: PropsType) => (
-  <img src="/icons/linkedin.svg" width={size} height={size} loading="lazy" />
+  <img src="/icons/linked_in.svg" width={size} height={size} loading="lazy" />
 );
